@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+   	  "deploy":"vitepress build docs && gh-pages -d docs/.vitepress/dist",
+	  "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/eeedayu/developer-docs#readme",
   "devDependencies": {
+    "gh-pages": "^6.3.0",
     "vitepress": "^1.6.4"
-  }
+ }
 }

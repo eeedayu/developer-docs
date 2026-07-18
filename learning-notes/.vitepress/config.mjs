@@ -3,7 +3,7 @@ export default {
 
 title:"我的技术知识库",
 
-
+base: "/developer-docs/",
 themeConfig:{
 
 
